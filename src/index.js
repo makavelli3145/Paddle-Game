@@ -1,4 +1,4 @@
-import Paddle from "/src/paddle";
+import Paddle from "/src/paddle.js";
 let canvas = document.getElementById("gameScreen")
 let ctx  =  canvas.getContext("2d");
 

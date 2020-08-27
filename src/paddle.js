@@ -12,8 +12,8 @@ export default class Paddle{
             //The expression -width/2 moves the paddle to the left
             //by half it's width from the centre  i.e. It places the centre
             //of the paddle at the centre of the canvas
-            x:  gamewidth / 2 - width/2,
-            y: gameHeight - this.height - 10,
+            x:  325,
+            y: 560,
         };
 
         
@@ -22,7 +22,7 @@ export default class Paddle{
      draw(ctx) {
         ctx.fillStyle = '#0ff';
 
-        ctx.fillRect(this.position.x, this.position.y.this.width, this.height);
+        ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
     }
 
 }
